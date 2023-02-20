@@ -19,6 +19,7 @@ body {
   margin: 20px auto;
   overflow: auto;
   background-color: #c4c4c4;
+  padding-top: 50px;
   line-height: 200px;
 }
 
@@ -40,6 +41,7 @@ body {
 .first-red {
   float: left;
 }
+
 .second-red {
   float: right;
 }
@@ -49,31 +51,32 @@ span {
   text-align: center;
 }
 
-.small-number {
-  font-size: 36px;
+.small-blocks {
+  float: right;
 }
 
 .second-block {
   width: 100px;
   height: 100px;
   background-color: #fc8f8f;
-  margin-right: 15px;
+  margin-left: 15px;
   float: left;
   line-height: 100px;
 }
 
-.second-block.second {
-  margin-left: 355px;
-}
-.second-block.five {
-  margin-right: 0;
+.small-number {
+  font-size: 36px;
 }
 
-.second-red.second {
+.last-bloks {
+  float: right;
+}
+
+.second-red:nth-last-of-type(2) {
   float: left;
   margin-left: 15px;
 }
 
-.second-red.three {
+.second-red:nth-last-of-type(1) {
   margin-left: 15px;
 }
